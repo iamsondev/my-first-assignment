@@ -75,6 +75,7 @@
 
 .vision-container{
   background-color: rgba(241, 241, 243, 1);
+  margin:80px 0px;
 }
 .vision-title{
   color: rgb(14, 14, 14);
@@ -84,6 +85,7 @@ font-weight: 700;
 line-height: 48px;
 letter-spacing: 0%;
 text-align: left;
+margin-left:20px;
 }
 .vision-description{
   color: rgba(14, 14, 14, 0.7);
@@ -93,6 +95,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+margin-left:20px;
 }
 .vision-box{
   display:flex;
@@ -246,3 +249,104 @@ text-align: left;
  text-align: left;
  border-style:none;
 }
+
+/*recent news styles*/
+ .recent-news{
+   background-color:rgba(241, 241, 243, 1);
+   margin:80px 0x;
+   
+ }
+ .recent-news-container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+    border-radius: 24px;
+
+    background: rgb(255, 255, 255);  
+    flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-right:21px; 
+  margin-left:21px;
+  margin-bottom:20px;
+  
+ }
+ .recent-news-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left:20px;
+ }
+ .recent-news-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom:10px;
+  margin-left:20px;
+ }
+ 
+ .recent-news-image{
+      border-radius:24px;
+      margin-right:;
+      position: static;
+      width: 408px;
+      height: 306px;
+      margin: 0px 32px;
+ }
+ .recent-news-content-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ .recent-news-content-logo{
+     margin:12px 0px;
+ }
+ .recent-news-content-sub-title{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ .recent-news-content-description{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ .recent-news-content-button{
+  border-radius: 8px;
+  padding:12px 25px 12px 25px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-style: none;
+ }
+
