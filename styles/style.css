@@ -353,7 +353,7 @@ text-align: left;
  /* donate section styles */
 .donate-section{
   background-color:rgba(241, 241, 243, 1);
-   margin:8px 8px 8px 8px;
+   margin:20px 20px 8px 8px;
 }
 .donate-section-title{
 
@@ -456,6 +456,10 @@ text-align: left;
   text-align: left;
 
 }
+
+.cadr-box-three:hover{
+      background-color: brown;
+}
 .card-box-four{
 
     
@@ -480,6 +484,9 @@ text-align: left;
   letter-spacing: 0%;
   text-align: left;
   
+}
+.card-box-four:hover{
+  background-color:rgb(4, 128, 166) ;
 }
 
 .donate-section-amount{
@@ -535,4 +542,104 @@ text-align: left;
   text-align: left;
   margin:auto;
 }
+.donate-section-button:hover{
+     background-color: rgb(205, 29, 29);
+}
+
+/* newsletter section styles*/
+
+.newsletter-section{
+  
+  width: auto;
+  height:250px ; 
+  border-radius: 24px;
+
+   background: rgb(198, 228, 214);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 64;
+   padding: 60px 80px 60px 80px;
+}
+.newsletter-section-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.newsletter-section-description{
+
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+ 
+.newsletter-section-input{
+     display:flex;
+}
+
+.newsletter-section-email{
+  position: static;
+  width: 600px;
+  height: 59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  
+  border-radius: 8px 0px 0px 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+ 
+  letter-spacing: 0%;
+  text-align: left;
+   border-style: none;
+}
+.newsletter-section-button{
+ 
+  position: static;
+  width: 150px;
+   
+  height: 60.5px;
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align:center;
+  border-style:none;
+     
+}
+.newsletter-section-button:hover{
+   background-color: rgb(252, 7, 7);
+}
+.newsletter-section-declaration{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
 
