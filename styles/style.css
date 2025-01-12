@@ -64,6 +64,9 @@
   
   
 }
+.banner-button:hover{
+     background-color: red;
+}
 .banner-image{
 
  width: 475px;
@@ -156,6 +159,9 @@ text-align: left;
  border-style:none;
 
 }
+.box-one-button:hover{
+   background-color: blueviolet;
+}
 .box-two{
   position: static;
   width: 410.67px;
@@ -204,6 +210,10 @@ text-align: left;
  text-align: left;
  border-style:none;
 }
+
+.box-two-button:hover{
+     background-color: red;
+}
   
 .box-three{
   position: static;
@@ -248,6 +258,9 @@ text-align: left;
  letter-spacing: 0%;
  text-align: left;
  border-style:none;
+}
+.box-three-button:hover{
+    background-color: rgb(4, 201, 201);
 }
 
 /*recent news styles*/
@@ -349,6 +362,9 @@ text-align: left;
   text-align: left;
   border-style: none;
  }
+ .recent-news-content-button:hover{
+    background-color: rgb(141, 31, 244);
+ }
  
  /* donate section styles */
 .donate-section{
@@ -406,7 +422,9 @@ text-align: left;
   letter-spacing: 0%;
   text-align: left;
 }
-
+.card-box-one:hover{
+   background-color:rgb(7, 221, 132);
+}
 
 .card-box-two{
   width: 252px;
@@ -431,6 +449,9 @@ text-align: left;
   text-align: left;
     
  
+}
+.card-box-two:hover{
+    background-color: blueviolet;
 }
 .cadr-box-three{
   
